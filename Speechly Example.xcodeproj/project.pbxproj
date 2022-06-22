@@ -14,6 +14,16 @@
 		400A085B285CE2B900E41CBD /* Speechly_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A085A285CE2B900E41CBD /* Speechly_ExampleTests.swift */; };
 		400A0865285CE2B900E41CBD /* Speechly_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A0864285CE2B900E41CBD /* Speechly_ExampleUITests.swift */; };
 		400A0867285CE2B900E41CBD /* Speechly_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A0866285CE2B900E41CBD /* Speechly_ExampleUITestsLaunchTests.swift */; };
+		400A0874285CE2EA00E41CBD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A0873285CE2EA00E41CBD /* Model.swift */; };
+		400A0876285CE34300E41CBD /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A0875285CE34300E41CBD /* Team.swift */; };
+		400A08792861F7AB00E41CBD /* Speechly in Frameworks */ = {isa = PBXBuildFile; productRef = 400A08782861F7AB00E41CBD /* Speechly */; };
+		400A087D2862008C00E41CBD /* SpeechlyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A087C2862008C00E41CBD /* SpeechlyManager.swift */; };
+		400A087F286210B300E41CBD /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A087E286210B300E41CBD /* Sport.swift */; };
+		400A088128623C7500E41CBD /* UserIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A088028623C7500E41CBD /* UserIntent.swift */; };
+		400A088428628A6D00E41CBD /* SpeechRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A088328628A6D00E41CBD /* SpeechRequest.swift */; };
+		400A0887286382D600E41CBD /* ResponseSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A0886286382D600E41CBD /* ResponseSections.swift */; };
+		400A08892863836800E41CBD /* OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A08882863836800E41CBD /* OtherViews.swift */; };
+		400A088B286383D100E41CBD /* SpeechInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A088A286383D100E41CBD /* SpeechInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,15 @@
 		400A0860285CE2B900E41CBD /* Speechly ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speechly ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		400A0864285CE2B900E41CBD /* Speechly_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speechly_ExampleUITests.swift; sourceTree = "<group>"; };
 		400A0866285CE2B900E41CBD /* Speechly_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speechly_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		400A0873285CE2EA00E41CBD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		400A0875285CE34300E41CBD /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		400A087C2862008C00E41CBD /* SpeechlyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechlyManager.swift; sourceTree = "<group>"; };
+		400A087E286210B300E41CBD /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		400A088028623C7500E41CBD /* UserIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserIntent.swift; sourceTree = "<group>"; };
+		400A088328628A6D00E41CBD /* SpeechRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRequest.swift; sourceTree = "<group>"; };
+		400A0886286382D600E41CBD /* ResponseSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSections.swift; sourceTree = "<group>"; };
+		400A08882863836800E41CBD /* OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViews.swift; sourceTree = "<group>"; };
+		400A088A286383D100E41CBD /* SpeechInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400A08792861F7AB00E41CBD /* Speechly in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				400A0849285CE2B500E41CBD /* Speechly_ExampleApp.swift */,
-				400A084B285CE2B500E41CBD /* ContentView.swift */,
+				400A0885286382C200E41CBD /* Views */,
+				400A0873285CE2EA00E41CBD /* Model.swift */,
+				400A087C2862008C00E41CBD /* SpeechlyManager.swift */,
+				400A088228628A5200E41CBD /* Speech Request */,
 				400A084D285CE2B900E41CBD /* Assets.xcassets */,
 				400A084F285CE2B900E41CBD /* Preview Content */,
 			);
@@ -127,6 +150,28 @@
 			path = "Speechly ExampleUITests";
 			sourceTree = "<group>";
 		};
+		400A088228628A5200E41CBD /* Speech Request */ = {
+			isa = PBXGroup;
+			children = (
+				400A088328628A6D00E41CBD /* SpeechRequest.swift */,
+				400A088028623C7500E41CBD /* UserIntent.swift */,
+				400A0875285CE34300E41CBD /* Team.swift */,
+				400A087E286210B300E41CBD /* Sport.swift */,
+			);
+			path = "Speech Request";
+			sourceTree = "<group>";
+		};
+		400A0885286382C200E41CBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				400A084B285CE2B500E41CBD /* ContentView.swift */,
+				400A0886286382D600E41CBD /* ResponseSections.swift */,
+				400A088A286383D100E41CBD /* SpeechInputView.swift */,
+				400A08882863836800E41CBD /* OtherViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +188,9 @@
 			dependencies = (
 			);
 			name = "Speechly Example";
+			packageProductDependencies = (
+				400A08782861F7AB00E41CBD /* Speechly */,
+			);
 			productName = "Speechly Example";
 			productReference = 400A0846285CE2B500E41CBD /* Speechly Example.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 400A083D285CE2B500E41CBD;
+			packageReferences = (
+				400A08772861F7AB00E41CBD /* XCRemoteSwiftPackageReference "ios-client" */,
+			);
 			productRefGroup = 400A0847285CE2B500E41CBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +308,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400A087F286210B300E41CBD /* Sport.swift in Sources */,
+				400A087D2862008C00E41CBD /* SpeechlyManager.swift in Sources */,
+				400A0887286382D600E41CBD /* ResponseSections.swift in Sources */,
+				400A0876285CE34300E41CBD /* Team.swift in Sources */,
+				400A088128623C7500E41CBD /* UserIntent.swift in Sources */,
+				400A088B286383D100E41CBD /* SpeechInputView.swift in Sources */,
+				400A088428628A6D00E41CBD /* SpeechRequest.swift in Sources */,
+				400A08892863836800E41CBD /* OtherViews.swift in Sources */,
+				400A0874285CE2EA00E41CBD /* Model.swift in Sources */,
 				400A084C285CE2B500E41CBD /* ContentView.swift in Sources */,
 				400A084A285CE2B500E41CBD /* Speechly_ExampleApp.swift in Sources */,
 			);
@@ -420,6 +480,7 @@
 				DEVELOPMENT_TEAM = 7Z964G7Z5X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) would like to access your microphone.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +510,7 @@
 				DEVELOPMENT_TEAM = 7Z964G7Z5X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "$(PRODUCT_NAME) would like to access your microphone.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -583,6 +645,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		400A08772861F7AB00E41CBD /* XCRemoteSwiftPackageReference "ios-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/speechly/ios-client.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		400A08782861F7AB00E41CBD /* Speechly */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 400A08772861F7AB00E41CBD /* XCRemoteSwiftPackageReference "ios-client" */;
+			productName = Speechly;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 400A083E285CE2B500E41CBD /* Project object */;
 }
