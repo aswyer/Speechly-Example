@@ -9,3 +9,5 @@ Tap & hold the mic button to ask a question or to perform an action. This exampl
 3. Check the Score: _"what is the score for georgia football?"_
 
 Checkout [config_reference.txt](config_reference.txt) which helps train Speechly models for our specific application. Learn how this file was written [here](https://docs.speechly.com/slu-examples/basics/).
+
+See it in action [here](https://youtu.be/EYwZrAlh5kc)
