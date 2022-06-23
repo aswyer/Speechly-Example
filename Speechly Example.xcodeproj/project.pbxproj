@@ -114,10 +114,9 @@
 		400A0848285CE2B500E41CBD /* Speechly Example */ = {
 			isa = PBXGroup;
 			children = (
-				400A0849285CE2B500E41CBD /* Speechly_ExampleApp.swift */,
-				400A0885286382C200E41CBD /* Views */,
 				400A0873285CE2EA00E41CBD /* Model.swift */,
 				400A087C2862008C00E41CBD /* SpeechlyManager.swift */,
+				400A0885286382C200E41CBD /* Views */,
 				400A088228628A5200E41CBD /* Speech Request */,
 				400A084D285CE2B900E41CBD /* Assets.xcassets */,
 				400A084F285CE2B900E41CBD /* Preview Content */,
@@ -164,6 +163,7 @@
 		400A0885286382C200E41CBD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				400A0849285CE2B500E41CBD /* Speechly_ExampleApp.swift */,
 				400A084B285CE2B500E41CBD /* ContentView.swift */,
 				400A0886286382D600E41CBD /* ResponseSections.swift */,
 				400A088A286383D100E41CBD /* SpeechInputView.swift */,
